@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Portfólio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section-full">
+    <div class="container h-100 d-flex align-items-center">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="display-4 fade-in">Meu Nome</h1>
+          <div class="divider mx-auto"></div>
+          <p class="lead mt-4 fade-in-delay">Estudante do curso técnico de informática</p>
+          <div class="mt-5 fade-in-delay-2">
+            <a href="#about" class="btn btn-primary btn-lg">Conheça mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <a href="#about">
+        <i class="bi bi-chevron-down"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Sobre Mim</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <div class="profile-img">
+            <img src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Foto de Perfil" class="img-fluid rounded-circle">
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <p class="about-text">
+            Olá! Sou um estudante apaixonado pelo curso técnico de informática, buscando constantemente aprender e desenvolver
+            minhas habilidades em programação e design. Tenho interesse especial em desenvolvimento web e estou sempre 
+            em busca de novos desafios e oportunidades para crescer profissionalmente.
+          </p>
+          <p class="about-text">
+            Atualmente, estou focado em aprimorar meus conhecimentos em HTML, CSS, JavaScript e frameworks modernos. 
+            Acredito no poder da tecnologia para transformar vidas e criar soluções inovadoras para problemas reais.
+          </p>
+          <div class="skills mt-4">
+            <h4>Minhas Habilidades</h4>
+            <div class="skill-bars mt-4">
+              <div class="skill">
+                <div class="skill-name">HTML & CSS</div>
+                <div class="skill-bar">
+                  <div class="skill-per" data-per="90"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                  <div class="skill-per" data-per="75"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Bootstrap</div>
+                <div class="skill-bar">
+                  <div class="skill-per" data-per="80"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding section-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Meus Projetos</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-icon">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <h4>Sistema de Gestão</h4>
+              </div>
+              <div class="project-card-back">
+                <h4>Sistema de Gestão</h4>
+                <p>Um sistema completo para gerenciamento de estoque e vendas, desenvolvido com tecnologias modernas.</p>
+                <button class="btn btn-outline-light">Ver Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-icon">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <h4>Aplicativo Mobile</h4>
+              </div>
+              <div class="project-card-back">
+                <h4>Aplicativo Mobile</h4>
+                <p>Aplicativo mobile para agendamento de serviços, com interface intuitiva e sistema de notificações.</p>
+                <button class="btn btn-outline-light">Ver Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="project-card-inner">
+              <div class="project-card-front">
+                <div class="project-icon">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <h4>E-commerce</h4>
+              </div>
+              <div class="project-card-back">
+                <h4>E-commerce</h4>
+                <p>Plataforma completa de e-commerce com catálogo de produtos, carrinho de compras e pagamento online.</p>
+                <button class="btn btn-outline-light">Ver Projeto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mb-5">
+          <h2 class="section-title">Entre em Contato</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="contactForm" class="contact-form">
+            <div class="mb-4">
+              <input type="text" class="form-control" id="name" placeholder="Seu Nome" required>
+            </div>
+            <div class="mb-4">
+              <input type="email" class="form-control" id="email" placeholder="Seu E-mail" required>
+            </div>
+            <div class="mb-4">
+              <textarea class="form-control" id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="social-links">
+            <li><a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a></li>
+            <li><a href="https://linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JS -->
+  <script>
+    // Initialize skill bars animation
+    function animateSkills() {
+      const skillBars = document.querySelectorAll('.skill-per');
+      skillBars.forEach(skill => {
+        const percentage = skill.getAttribute('data-per');
+        skill.style.width = percentage + '%';
+        skill.style.animation = 'progress 1s ease-in-out forwards';
+      });
+    }
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          window.scrollTo({
+            top: target.offsetTop - 70,
+            behavior: 'smooth'
+          });
+        }
+        
+        // Close mobile navbar on click
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+          navbarCollapse.classList.remove('show');
+        }
+      });
+    });
+
+    // Navbar background change on scroll
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('#navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    });
+
+    // Contact form submission (prevent default for demo)
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Obrigado por entrar em contato! Em um site real, sua mensagem seria enviada.');
+        contactForm.reset();
+      });
+    }
+
+    // Trigger skill animation when skills section is in viewport
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateSkills();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const skillsSection = document.querySelector('.skills');
+    if (skillsSection) {
+      observer.observe(skillsSection);
+    }
+  </script>
+</body>
+</html>
