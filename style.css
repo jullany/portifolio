@@ -6,16 +6,16 @@
 
 /* Base Styles & Variables */
 :root {
-  --dark-bg: #121212;
+  --dark-bg: #8b1f7e5e;
   --dark-surface: #1e1e1e;
-  --dark-surface-light: #2d2d2d;
-  --text-primary: rgba(255, 255, 255, 0.87);
-  --text-secondary: rgba(255, 255, 255, 0.6);
-  --accent-color: #64ffda;
+  --dark-surface-light: #420a42;
+  --text-primary: rgba(182, 19, 207, 0.936);
+  --text-secondary: rgba(147, 64, 139, 0.914);
+  --accent-color: #841da19d;
   --primary-color: #7b68ee;
   --primary-color-hover: #6a5acd;
   --transition: all 0.3s ease;
-  --shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  --shadow: 0 4px 20px rgba(209, 14, 227, 0.765);
   --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
